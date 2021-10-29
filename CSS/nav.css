@@ -1,0 +1,42 @@
+.svg-logo-nav {
+    max-height: 4vw;
+}
+.svg-logo-nav:hover {
+    transition: 300ms;
+}
+header {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    box-shadow: rgb(12, 47, 66) 0px 5px 30px 5px;
+    padding: 0 10px 0 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    border: rgb(22, 96, 136) 12px solid;
+    position: sticky;
+    top: 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+nav ul li {
+    padding-top: 1.5vw;
+    display: inline-block;
+}
+nav ul li a {
+    color: #166088;
+    text-decoration: none;
+    font-size: 1.2vw;
+    padding: 1.7vw 2vw 1.5vw 2vw;
+    transition: 300ms;
+    font-family: sitka-2;
+}
+nav ul li a:hover {
+    background-color: #166088;
+    transition: 300ms;
+    color: white;
+}

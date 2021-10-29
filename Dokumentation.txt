@@ -1,0 +1,15 @@
+Jeg startede med at lave en wireframe i Adobe Xd og efter den var godkendt
+gik jeg igang med at designe logoet.
+<>
+Den font jeg har valgt er Sitka By Dafont, fordi jeg syntes
+at den passede til opgaven, og så er det den font jeg brugte da jeg lavede logoet.
+<>
+I min opgave har jeg valgt at bruge farven Blue Sapphire #166088 - ud over det,
+har jeg til background på body brugt en linear gradient
+som går fra #166088 til #c0d6df.
+<>
+Jeg har valgt at opsætte min hjemmeside på den måde som jeg har, fordi
+jeg syntes det så okay ud i Xd.
+<>
+Mine billeder af bøger har jeg downloadet fra Saxo, og så har jeg fået mine
+farver fra coolors.co og de andre billeder på hjemmesiden er downloadet fra pexels.com

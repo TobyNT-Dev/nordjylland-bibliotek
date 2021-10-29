@@ -1,0 +1,246 @@
+@font-face {
+    font-family: sitka-1;
+    src: url(../font/sitka-small-815.ttf);
+}
+@font-face {
+    font-family: sitka-2;
+    src: url(../font/sitka-small-652.ttf);
+}
+@font-face {
+    font-family: sitka-3;
+    src: url(../font/sitka-small-599.ttf);
+}
+* {
+    scroll-behavior: smooth;
+}
+.col-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+.col-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.col-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.col-5 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.sec-input input {
+    display: inline-block;
+    margin-top: 30px;
+    width: 60vw;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1.8vw;
+}
+.sticky1 {
+    z-index: 2;
+    position: sticky;
+    top: 0;
+}
+.sec-input {
+    text-align: center;
+}
+.search-background-color {
+    background-color: rgb(22, 96, 136);
+    padding-bottom: 20px;
+    box-shadow: rgb(13, 59, 83) 0px 5px 50px;
+}
+.click-pictures {
+    margin-top: 60px;
+}
+.click-pictures figure img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.click-pictures figure {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.click-pictures figure figcaption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin:0;
+    padding:0;
+    font-size: 1vw;
+}
+.click-pictures figure figcaption h2 {
+    background-color: rgba(22, 96, 136);
+    padding: 1.2vw;
+    transition: 500ms;
+    margin: 0;
+    color: white;
+    font-family: sitka-3;
+}
+figure:hover  .figcaption- {
+    background-color: rgba(22, 96, 136, 0.486);
+    transition: 500ms;
+    padding: 1.2vw;
+}
+div h1 {
+    margin-left: 10vw;
+    font-size: 3vw;
+    font-family: sitka-1;
+}
+/* Nyt På Hylderne vv */
+section div h2 {
+    margin-left: 7vw;
+    font-size: 3vw;
+    font-family: sitka-1;
+}
+section div figure {
+    position: relative;
+    cursor: pointer;
+}
+section div figure figcaption {
+    Position: absolute;
+    bottom: 0;
+}
+section div figure figcaption h3 {
+    max-width: 326px;
+    display: inline-block;
+    font-size: 1.6vw;
+    font-family: sitka-3;
+    background-color: rgba(22, 96, 136, 0.829);
+    box-shadow: rgb(13, 59, 83) 0px 5px 50px;
+}
+section div figure figcaption h4 {
+    display: inline-block;
+    font-size: 1.4vw;
+    font-family: sitka-2;
+    background-color: rgba(22, 96, 136, 0.829);
+    box-shadow: rgb(13, 59, 83) 0px 5px 50px;
+}
+section div figure img {
+    height: 100%;
+    width: 100%;
+}
+.nph {
+    max-width: 85vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+.scroller {
+    position: absolute;
+    vertical-align: center;
+    transform: rotate(-180deg);
+    font-size: 3vw;
+    font-family: sitka-3;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 2vw;
+    height: 2vw;
+    width: 2vw;
+    background-color: rgba(22, 96, 136, 0.52);
+    border-radius: 100%;
+    transition: 400ms;
+    top: 5.4vw;
+    left: 90vw;
+}
+.scroller:hover {
+    transform: rotate(0deg);
+    background-color: rgb(22, 96, 136);
+    transition: 400ms;
+}
+.seflere {
+    color: rgb(22, 96, 136);
+    font-family: sitka-1;
+    text-align: center;
+    display: block;
+    text-decoration: underline;
+    font-size: 1.8vw;
+}
+.form-image {
+    height: 20vw;
+    width: 22.5vw;
+}
+.label1 {
+    display: inline-block;
+}
+.newsletter {
+    margin-top: 80px;
+    border: rgb(22, 96, 136) solid 7px;
+    padding: 3px;
+    max-width: 45vw;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+.form-text {
+    display: inline-block;
+    margin-left: 0.5vw;
+    font-size: 1.6vw;
+}
+.form-input {
+    background-color: rgb(230, 230, 230);
+    border: white solid 1px;
+    width: 20vw;
+    height: 2vw;
+    font-size: 1.5vw;
+}
+.form-background {
+    display: block;
+    background-color: rgb(22, 96, 136);
+}
+.label1 {
+    font-size: 1.2vw;
+    display: inline-block;
+}
+.form-checkbox {
+    width: 1.2vw;
+    height: 1.2vw;
+}
+.form-link {
+    text-decoration: underline;
+    color: rgb(20, 8, 180);
+    cursor: pointer;
+}
+.form-span {
+    color: red;
+}
+.form-button {
+    margin: 0 0.15vw 0 0;
+    color: white;
+    vertical-align: center;
+    font-family: sitka-2;
+    font-size: 1.2vw;
+    height: 1.9vw;
+    border: 0;
+    background-color: #166088;
+}
+body {
+    background: linear-gradient(180deg, rgba(22,96,136,1) 0%, rgba(219,233,238,1) 100%);
+}
+article div svg {
+    cursor: pointer;
+    width: 60%;
+}
+footer section article h3, footer section article h2 {
+    font-family: sitka-2;
+}
+footer {
+    max-width: 85vw;
+    margin-right: auto;
+    margin-left: auto;
+}
